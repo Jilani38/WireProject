@@ -5,14 +5,7 @@
 #include "avltree_utils.h"
 #include "utils.h"
 
-// Helper function to free an AVL tree recursively
-void freeAVLTree(AVLNode* node) {
-    if (node == NULL) return;
 
-    freeAVLTree(node->left);
-    freeAVLTree(node->right);
-    free(node);
-}
 
 int main(int argc, char* argv[]) {
     if (argc < 3) {
