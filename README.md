@@ -1,4 +1,4 @@
- "Usage: ./c-wire.sh <CSV file> <station type> <consumer type> [Central ID]"
+ "Usage: ./c-wire.sh [CSV file] [Station type] [Consumer type] [Central ID]"
     
      "Description:"
      "This script analyzes a CSV file containing electrical distribution data."
