@@ -1,4 +1,5 @@
- "Usage: ./c-wire.sh [CSV file] [Station type] [Consumer type] [Central ID]"
+"Give yourself execution permissions: chmod +x c-wire.sh" 
+"Usage: ./c-wire.sh [CSV file] [Station type] [Consumer type] [Central ID]"
     
      "Description:"
      "This script analyzes a CSV file containing electrical distribution data. It processes different information depending on the type of station and type of consumer specified, enabling targeted, customized data analysis."
@@ -12,7 +13,7 @@
      "Options:"
      "  -h                 Shows this help and ignores other options."
 
-"Example of execution : ./c-wire.sh data.csv hva comp 123"
+     "Example of execution : ./c-wire.sh data.csv hva comp 123"
 
 "This script is designed to run under a Unix-like environment (Linux, macOS). 
 
