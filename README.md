@@ -1,4 +1,5 @@
 "Give yourself execution permissions: chmod +x c-wire.sh" 
+
 "Usage: ./c-wire.sh [CSV file] [Station type] [Consumer type] [Central ID]"
     
      "Description:"
