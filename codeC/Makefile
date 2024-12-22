@@ -3,6 +3,7 @@ TARGET = exeC
 
 # Source files
 SRCS = main.c avltree_utils.c avltree_usage.c utils.c
+HEADERS = avltree_usage.h avltree_utils.h utils.h
 
 # Object files (generated from source files)
 OBJS = $(SRCS:.c=.o)
@@ -22,7 +23,5 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 # Clean up generated files
-.PHONY: clean
 clean:
-	make
-	rm -f *.o main
+	rm -f *.o $(TARGET)
