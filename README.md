@@ -13,4 +13,5 @@
      "  -h                 Shows this help and ignores other options."
 
 "Example of execution : ./c-wire.sh data.csv hva comp 123"
+
 "This script is designed to run under a Unix-like environment (Linux, macOS). Please ensure that the input CSV file is correctly formatted and that the parameters are supplied in the specified order."
