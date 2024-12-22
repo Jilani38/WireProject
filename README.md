@@ -1,7 +1,7 @@
  "Usage: ./c-wire.sh [CSV file] [Station type] [Consumer type] [Central ID]"
     
      "Description:"
-     "This script analyzes a CSV file containing electrical distribution data."
+     "This script analyzes a CSV file containing electrical distribution data. It processes different information depending on the type of station and type of consumer specified, enabling targeted, customized data analysis."
     
      "Parameters:"
      "  <CSV file>         Path to the input CSV file (mandatory)."
@@ -12,3 +12,5 @@
      "Options:"
      "  -h                 Shows this help and ignores other options."
 
+"Example of execution : ./c-wire.sh data.csv hva comp 123"
+"This script is designed to run under a Unix-like environment (Linux, macOS). Please ensure that the input CSV file is correctly formatted and that the parameters are supplied in the specified order."
