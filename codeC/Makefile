@@ -3,7 +3,6 @@ TARGET = exeC
 
 # Source files
 SRCS = main.c avltree_utils.c avltree_usage.c utils.c
-HEADERS = avltree_usage.h avltree_utils.h utils.h
 
 # Object files (generated from source files)
 OBJS = $(SRCS:.c=.o)
